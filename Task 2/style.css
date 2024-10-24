@@ -62,13 +62,24 @@ body{
     color: white;
     width: 150px;
     height: 40px;
-    font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
+    font-size: 20px;
+    font-family: "Rethink Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 select{
     outline: none;
+    background-color: #D8B4E2;
+    border: none;
+    font-size: 20px;
+    font-family: "Rethink Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 #copy , #speaker{
