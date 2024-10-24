@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="text">
+            <textarea placeholder="Enter Text" class="Original-text" id="fromtext"></textarea>
+            <textarea placeholder="Translate" class="Original-text" id="totext"></textarea>
+        </div>
+        <div class="languages">
+            <div class="select">
+                <img src="copy.svg" id="copy">
+                <img src="speaker.svg" id="speaker">
+                <select class="select">
+                </select>
+            </div>
+            <div class="select">
+                <img src="copy.svg" id="copy">
+                <img src="speaker.svg" id="speaker">
+                <select class="select">
+                </select>
+            </div>
+        </div>
+        <button id="trans">
+            Translate
+        </button>
+    </div>
+    <script src="countries.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
